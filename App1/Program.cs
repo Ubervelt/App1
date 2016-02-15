@@ -4,7 +4,7 @@ public class TaxCalculator
 {
     public static void Main()
     {
-        Console.WriteLine("Please enter salary: ");
+        Console.WriteLine("Please enter GROSS salary: ");
         int userMoney = Convert.ToInt32(Console.ReadLine());
 
         if (userMoney <= 18200)
