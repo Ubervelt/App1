@@ -4,7 +4,7 @@ public class TaxCalculator
 {
     public static void Main()
     {
-        // Australian tax calculator for the 2015-2016 FY
+        // Simple Australian tax calculator for the 2015-2016 FY
         Console.WriteLine("Please enter GROSS salary: ");
         double userMoney = Convert.ToDouble(Console.ReadLine());
 
